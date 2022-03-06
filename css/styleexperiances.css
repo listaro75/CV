@@ -1,0 +1,106 @@
+
+/*ajout d'une police affirmative*/
+
+@font-face {
+    font-family: "bl";
+    src: url("../font/AltoneTrial-Bold.ttf");
+}
+
+/*couleur de fond*/
+
+body{
+    background-color: white;
+}
+
+/*video yt*/
+
+iframe{
+    border: 1px solid rgb(255, 255, 255);
+    padding-bottom: 1%; 
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    margin-right: 63.5%;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+/*premier titre*/
+
+#compet{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: bl;
+    text-align: center;
+    font-size: large;
+}
+/*deuxième titre*/
+
+#trav{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: bl;
+    text-align: center;
+    font-size: large;
+}
+/*resumer de la video*/
+#resumer {
+    border: 1px solid rgb(255, 255, 255);
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 50%;
+    margin-top: -10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border-radius: 7px;
+    background-color: white;
+}
+/*eiffage*/
+.card{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+/*FOOTER*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #343a40;
+    text-align: center;
+    color: #c5c5c5;
+}
+
+@media (max-width: 1100px) {
+    #resumer {
+        border: 1px solid rgb(255, 255, 255);
+        padding-bottom: 1%;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-left: 7%;
+        margin-top: 5%;
+        margin-right: 44.5%;
+        margin-bottom: 5%;
+        border-radius: 7px;
+        background-color: white;
+    }
+}
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+} 

@@ -1,0 +1,26 @@
+/*FOOTER*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #8b8b8b;
+    text-align: center;
+    color: #c5c5c5;
+}
+
+#cc{
+    margin-top: 10% ;
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+} 

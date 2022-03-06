@@ -1,0 +1,84 @@
+/*ajout d'une police affirmative*/
+@font-face {
+    font-family: "ii";
+    src: url("../font/AltoneTrial-Regular.ttf");
+}
+/* coleur de fond du body plus en avance dans le menu et plus la couleur est foncé*/
+body{
+    background-color: rgb(255, 255, 255);
+}
+/*navmenu*/
+#cc{
+    background-color: black;
+}
+/*avant texte*/
+#ty{
+    background-color: white;
+    border: 1px solid rgb(167, 167, 167);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-right: 10%;
+    border-radius: 7px;
+
+
+}
+#ty,p{
+    text-align: center;
+    padding-top: 0.5%;
+    font-family: ii;
+}
+/*texte*/
+#kk{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #8b8b8b;
+    text-align: center;
+    color: #c5c5c5;
+}
+#ensemble{
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+#premier{
+    margin-bottom: 2%;
+}
+.card-text{
+    text-align: justify;
+}
+#pp{
+    padding-top: 10%;
+}
+#ff{
+    padding-top: 8%;
+}
+#mm{
+    padding-top: 2%;
+}
+/*FOOTER*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #343a40;
+    text-align: center;
+    color: #c5c5c5;
+}
+
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+} 

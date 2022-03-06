@@ -1,0 +1,52 @@
+/*FOOTER*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #343a40;
+    text-align: center;
+    color: #c5c5c5;
+}
+/*titre*/
+h4{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*tableau*/
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+    margin-left: 25%;
+    margin-right: 25% ;
+}
+#m{
+    text-align: center;
+    background-color: #c5c5c5;
+}
+td,th{
+	border: 1px solid black;
+	width: 300px;
+
+}
+td{
+	text-align: justify;
+    padding: 0 1% 0 1%;
+}
+th{
+	background-color: lightgray;
+	color: rgb(27, 27, 27);
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+} 
